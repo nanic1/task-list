@@ -22,8 +22,9 @@ O objetivo do projeto é praticar conceitos básicos de desenvolvimento backend 
 src
  └─ main
      └─ java
-         └─ tech.buildrun.task.list
-             └─ controller
+         └─ TaskListApplication.java
+            tech.buildrun.task.list
+            └─ controller
                  └─ ApiController.java
 ```
 
@@ -133,7 +134,7 @@ cd task-list
 ./mvnw spring-boot:run
 ```
 
-ou execute pela sua IDE.
+ou execute pela sua IDE o arquivo **TaskListApplication.java** no caminho
 
 A aplicação iniciará em:
 
