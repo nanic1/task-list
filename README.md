@@ -108,20 +108,10 @@ Remove uma tarefa existente usando o índice da lista como identificador
 Exemplo:
 
 ```
-DELETE /tasks/2
+DELETE /tasks/0
 ```
 
-```
-GET /tasks
-```
-
-Resposta:
-
-```json
-["Primeira tarefa", "Segunda tarefa"]
-```
-
-Tarefa no índice 2 ("Terceira tarefa") deletada
+Apaga apenas a tarefa que estava no índice 0.
 
 ## Como executar o projeto
 
@@ -161,6 +151,7 @@ Você pode testar a API utilizando ferramentas como:
 * Insomnia
 * curl
 
+Lembre-se de colocar a URL **http://localhost:3000/tasks** para conseguir fazer as requições.
 ---
 
 ## 👨‍💻 Autor
