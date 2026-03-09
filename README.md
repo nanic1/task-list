@@ -36,7 +36,7 @@ A API possui operações básicas para manipular tarefas.
 ### Listar todas as tarefas
 
 ```
-GET /tasks
+GET http://localhost:3000/tasks
 ```
 
 Retorna todas as tarefas cadastradas.
@@ -52,7 +52,7 @@ Exemplo de resposta:
 ### Criar uma nova tarefa
 
 ```
-POST /tasks
+POST http://localhost:3000/tasks
 ```
 
 Body da requisição:
@@ -68,7 +68,7 @@ Adiciona uma nova tarefa à lista.
 ### Atualizar uma tarefa
 
 ```
-PUT /tasks/{id}
+PUT http://localhost:3000/tasks/{id}
 ```
 
 Atualiza uma tarefa existente usando o índice da lista como identificador.
@@ -76,7 +76,7 @@ Atualiza uma tarefa existente usando o índice da lista como identificador.
 Exemplo:
 
 ```
-PUT /tasks/0
+PUT http://localhost:3000/tasks;0
 ```
 
 Body:
@@ -90,7 +90,7 @@ Body:
 ### Remover todas as tarefas
 
 ```
-DELETE /tasks
+DELETE http://localhost:3000/tasks
 ```
 
 Remove todas as tarefas cadastradas na aplicação.
@@ -100,7 +100,7 @@ Remove todas as tarefas cadastradas na aplicação.
 ### Remover uma tarefa
 
 ```
-DELETE /tasks/{id}
+DELETE http://localhost:3000/tasks/{id}
 ```
 
 Remove uma tarefa existente usando o índice da lista como identificador
@@ -108,7 +108,7 @@ Remove uma tarefa existente usando o índice da lista como identificador
 Exemplo:
 
 ```
-DELETE /tasks/0
+DELETE http://localhost:3000/tasks/0
 ```
 
 Apaga apenas a tarefa que estava no índice 0.
@@ -151,7 +151,6 @@ Você pode testar a API utilizando ferramentas como:
 * Insomnia
 * curl
 
-Lembre-se de colocar a URL **http://localhost:3000/tasks** para conseguir fazer as requições.
 ---
 
 ## 👨‍💻 Autor
