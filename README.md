@@ -1,4 +1,4 @@
-# Task List API - Spring Boot
+# Task List API
 
 Este projeto é uma **API REST simples de lista de tarefas** desenvolvida utilizando **Spring Boot**.
 A aplicação permite criar, visualizar, atualizar e remover tarefas através de requisições HTTP.
